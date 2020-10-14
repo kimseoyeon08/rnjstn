@@ -1,0 +1,33 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2? family = 나눔 + 명조 & family = 노토 + 샌즈 + KR & display = swap');
+
+/* reset */
+* { margin: 0; padding: 0;}
+body { font-family : 'Nanum Myeongjo', serif , 'Noto Sans KR', sans-serif;}
+a { color: inherit; text-decoration: none;}
+li { list-style: none;}
+
+/* layout */
+body { font-family : 'Nanum Myeongjo', serif , 'Noto Sans KR', sans-serif;
+       font-size: 16px; color: #444;}
+.wrap { width: 100%; margin-top: 50px;}
+.event { width: 1600px; margin: 0 auto;
+         padding: 50px 0; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd }
+.event ul { overflow: hidden; }
+.event ul li { float: left; width: 50%;
+               background-image: url(../img/pink.jpg) no-repeat right/cover; 
+               padding: 50px 0 50px 30px; box-sizing: border-box;}
+.event ul li:nth-child(2) { background-image: url(../img/moon.jpg) no-repeat right/cover;
+                            border-left: 1px solid #ddd;}
+.event ul li .text { text-align: center; width: 45%; position: relative;}
+.event ul li .text h3 { font-size: 36px; margin-bottom: 30px; }
+.event ul li .text p { margin-bottom: 30px;}
+.event ul li .text .button { display: inline-block; padding: 8px 18px; color: #444;
+                             border-bottom: 1px solid #666; border-top: 1px solid #666;
+                            font-family: 'Nanum Myeongjo', serif; font-size: 17px;}
+.event ul li .text .dot { position: absolute; top: -10px; left: 152px;}
+.event ul li .text .dot span { display: inline-block; width: 8px; height: 8px; margin-right: 22px;
+                                background: rgba(255, 0, 0, 0.91); border-radius: 50px;
+                                text-indent: -9999px;}
+
+                        
